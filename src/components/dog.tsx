@@ -11,7 +11,6 @@ export function GenerateDog({ service }: { service: () => Promise<string> }) {
         }
     }
 
-    console.log(dogImage)
     return (
         <div style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
             <h3>Click this button and see a funny dog!</h3>
