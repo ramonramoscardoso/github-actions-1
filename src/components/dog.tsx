@@ -4,11 +4,7 @@ export function GenerateDog({ service }: { service: () => Promise<string> }) {
     const [dogImage, setDogImage] = useState<string>()
 
     async function generateImage() {
-        const response = await service()
-        
-        if (response) {
-            setDogImage(response)
-        }
+        console.log("do nothing")
     }
 
     return (
